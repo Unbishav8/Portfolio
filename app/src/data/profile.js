@@ -1,7 +1,7 @@
 const profile = {
   name: "Yedupati Vishnu Vardhan",
   role: "Full-Stack Developer",
-  tagline:" build web apps with PHP, Node.js, Python, React and AWS."
+  tagline:"I build web apps with PHP, Node.js, Python, React and AWS.",
   about: [
     "I am a passionate full-stack developer with experience in building web applications using PHP, Node.js, Python, and React. I enjoy creating efficient and scalable solutions that solve real-world problems.",
     "I have a strong foundation in both front-end and back-end development, and I am always eager to learn new technologies and improve my skills.",
