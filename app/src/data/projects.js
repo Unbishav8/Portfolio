@@ -11,7 +11,7 @@ const projects = [
     title: "Saffron & Spice Restaurant Platform",
     description: "A responsive restaurant web application with online reservations, contact management, API-based backend services, validation, rate limiting, and security controls.",
     tech: ["Node.js", "Express.js", "JavaScript", "HTML5", "CSS3", "REST API", "API Security", "Rate Limiting"],
-    link: "https://github.com/Unbishav8/saffron-spice",
+    link: "https://github.com/Unbishav8/Saffron-Spice-Restaurant-Platform",
   },
 
   {
