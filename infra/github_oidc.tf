@@ -1,6 +1,6 @@
-variable "github_repo" {
+variable "github_repo_subject" {
   type    = string
-  default = "Unbishav8/Portfolio"
+  default = "Unbishav8@130789950/Portfolio@1461356452"
 }
 
 # Tells AWS to trust tokens issued by GitHub Actions.
@@ -28,7 +28,7 @@ data "aws_iam_policy_document" "github_trust" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${var.github_repo}:ref:refs/heads/main"]
+      values   = ["repo:${var.github_repo_subject}:ref:refs/heads/main"]
     }
   }
 }
